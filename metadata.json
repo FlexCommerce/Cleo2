@@ -1,7 +1,7 @@
 {
-    "name":"cleo",
-    "thumbnail":"cleo.png",
-    "screenshot":"cleo.png",
+    "name":"cleo2",
+    "thumbnail":"cleo2.png",
+    "screenshot":"cleo2.png",
     "templateType":"general",
     "pageTypes":["default","home"],
     "tags": {
@@ -108,5 +108,3 @@
         }
     }
 }
-
-
