@@ -313,6 +313,7 @@ code{
   height: 503px;
   vertical-align: bottom;
   padding-bottom: 0;
+  text-align: right;
 }
 .widget.feature .feature-bgimg .content{
   vertical-align: top;
@@ -356,7 +357,7 @@ code{
 /* FEATURE BUTTON */
 
 .widget.feature .feature-btn{
-  max-width: 930px;
+  width: 100%;
   display: block;
 }
 
@@ -437,7 +438,9 @@ code{
   padding: 6px 10px 6px 45px;
   border: none;
 }
-
+.widget.tweet a{
+  padding: 10px 10px 10px 45px;
+}
 /* ===============================
    BUTTON CSS
    =============================== */
@@ -1673,7 +1676,7 @@ width: 100%;
 
   .widget.feature h3 {
     font-size:bkscale(@font-swatch9-font-size, 0.8);
-    line-height: bkscale(@font-swatch8-line-height,0.55);
+    line-height: bkscale(@font-swatch8-line-height,0.9);
   }
 
   .widget.feature button {
@@ -1750,7 +1753,6 @@ width: 100%;
 
   .widget.feature h3 {
     font-size:bkscale(@font-swatch9-font-size, 0.7);
-    line-height: 0;
     text-align: center;
   }
 
