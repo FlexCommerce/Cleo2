@@ -467,6 +467,7 @@ code{
 .bk-footer button{
   background-color: @color-swatch6;
 }
+.widget.dropbox .b-wrap .btn:hover,
 .widget.button button:hover{
   background-color: @font-swatch7-background-color-hover;
   cursor: pointer;
@@ -716,7 +717,7 @@ hr.line.align-right {
   text-decoration: none;
   letter-spacing: 1px;
   cursor: default;
-  padding: 6px 10px;
+  padding: 10px;
   border-radius: 2px;
   display: inline-block;
   -webkit-border-radius: 5px;
@@ -725,6 +726,7 @@ hr.line.align-right {
 }
 .widget.clicktocall a:hover{
   padding: 10px;
+  background-color: @font-swatch7-background-color-hover;
 }
 /* ===============================
    TWITTER WIDGET
@@ -871,7 +873,7 @@ input:-moz-placeholder { color: @color-swatch7; }
     text-decoration: none;
     letter-spacing: 1px;
 }
-  
+.blogsearch form button:hover,  
 .widget.contactform fieldset button.btn:hover {
   background-color: @font-swatch7-background-color-hover;
   cursor: pointer;
@@ -1674,7 +1676,7 @@ width: 100%;
 
   .widget.feature h3 {
     font-size:bkscale(@font-swatch9-font-size, 0.8);
-    line-height: bkscale(@font-swatch8-line-height,0.5);
+    line-height: 3;
   }
 
   .widget.feature button {
@@ -1683,7 +1685,7 @@ width: 100%;
 }
 
   .widget.feature .feature-btn {
-    max-width: 648px;
+    max-width: 100%;
     padding: 0;
   }
 
@@ -1752,6 +1754,7 @@ width: 100%;
   .widget.feature h3 {
     font-size:bkscale(@font-swatch9-font-size, 0.7);
     text-align: center;
+    line-height: 2;
   }
 
   .widget.feature .feature-btn {
