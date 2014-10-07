@@ -2,7 +2,7 @@
     "name":"cleo2",
     "thumbnail":"cleo2.png",
     "screenshot":"cleo2.png",
-    "templateType":"general",
+    "templateType":"standard",
     "pageTypes":["default","home"],
     "tags": {
         "en": ["Business", "Trade", "company", "business", "corporate", "finance", "financial", "firm", "money", "simple"]        
